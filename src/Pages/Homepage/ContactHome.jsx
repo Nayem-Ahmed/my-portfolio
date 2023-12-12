@@ -1,7 +1,23 @@
-import React from 'react';
+import React, { useRef } from 'react';
+import emailjs from '@emailjs/browser';
 import { MdLocationPin, MdMail, MdOutlineWifiCalling3 } from 'react-icons/md';
+import { toast } from 'react-toastify';
 
 const ContactHome = () => {
+    const form = useRef();
+    const sendEmail = (e) => {
+        e.preventDefault();
+    
+        emailjs.sendForm('service_kyqm5v8', 'template_w7z723v', form.current, 'DcihI3RTUabNYG9Ad')
+          .then((result) => {
+              console.log(result.text);
+              toast("Request successful");
+
+
+          }, (error) => {
+              console.log(error.text);
+          });
+      };
     return (
        <div className='py-9'>
        <h1  className='text-center md:text-8xl font-bold text-gray-200'>CONTACT ME</h1>
@@ -38,7 +54,7 @@ const ContactHome = () => {
 
             </div>
             <div className="py-5 flex-1">
-                <form id="contact-form" className="max-w-md mx-auto shadow-md  bg-white p-6">
+                <form  ref={form} onSubmit={sendEmail} id="contact-form" className="max-w-md mx-auto shadow-md  bg-white p-6">
                     <h2 className='text-center font-semibold text-2xl my-4'>Send A Message</h2>
                     <label htmlFor="name" className="block text-gray-700 mb-2">Your Name:</label>
                     <input type="text" id="name" name="name" required className="w-full px-4 py-2 border hover:-translate-y-1 transition  border-gray-300 rounded mb-4 focus:outline-none focus:border-blue-500" />

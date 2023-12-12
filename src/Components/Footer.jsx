@@ -4,7 +4,7 @@ import { FaLocationArrow } from "react-icons/fa";
 
 const Footer = () => {
     return (
-        <footer className="footer p-10  bg-[#1ebbf0]  text-base-content">
+        <footer className="footer p-10  bg-[#1ebbf080]  text-base-content">
   <nav>
     <header className="footer-title">About Us</header> 
     <a className="link link-hover">Branding</a>
