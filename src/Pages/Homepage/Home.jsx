@@ -1,8 +1,8 @@
 import React from 'react';
 import Banner from './Banner';
 import Services from './Services';
-import Contact from '../Contact';
 import ContactHome from './ContactHome';
+import Skill from './Skill';
  
 
 const Home = () => {
@@ -11,6 +11,7 @@ const Home = () => {
             <Banner></Banner>
             <Services></Services>
             <ContactHome></ContactHome>
+            <Skill></Skill>
         </div>
     );
 };
