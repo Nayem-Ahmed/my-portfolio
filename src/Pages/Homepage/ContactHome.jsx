@@ -3,9 +3,10 @@ import { MdLocationPin, MdMail, MdOutlineWifiCalling3 } from 'react-icons/md';
 
 const ContactHome = () => {
     return (
-       <div>
-        
-         <div className='flex flex-col md:flex-row py-10 bg-gray-100 p-4'>
+       <div className='py-9'>
+       <h1  className='text-center md:text-8xl font-bold text-gray-200'>CONTACT ME</h1>
+      <p className='text-center md:text-2xl font-semibold relative md:-top-16 underline decoration-sky-500'>Let's start a project together!</p>
+         <div className='flex flex-col md:flex-row py-7  p-4'>
             <div className='py-8 bg-[#1ebbf0] text-center flex-1 md:max-w-md md:mx-auto   my-auto'>
                 <div className='mb-8'>
                 <div className='h-16 w-16 bg-white mx-auto text-center flex items-center justify-center rounded-full'>
@@ -36,8 +37,8 @@ const ContactHome = () => {
 
 
             </div>
-            <div className="py-6 flex-1">
-                <form id="contact-form" className="max-w-md mx-auto  bg-white p-6">
+            <div className="py-5 flex-1">
+                <form id="contact-form" className="max-w-md mx-auto shadow-md  bg-white p-6">
                     <h2 className='text-center font-semibold text-2xl my-4'>Send A Message</h2>
                     <label htmlFor="name" className="block text-gray-700 mb-2">Your Name:</label>
                     <input type="text" id="name" name="name" required className="w-full px-4 py-2 border hover:-translate-y-1 transition  border-gray-300 rounded mb-4 focus:outline-none focus:border-blue-500" />
