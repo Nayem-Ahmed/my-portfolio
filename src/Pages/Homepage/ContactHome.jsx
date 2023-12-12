@@ -3,7 +3,9 @@ import { MdLocationPin, MdMail, MdOutlineWifiCalling3 } from 'react-icons/md';
 
 const ContactHome = () => {
     return (
-        <div className='flex flex-col md:flex-row py-10 bg-gray-100'>
+       <div>
+        
+         <div className='flex flex-col md:flex-row py-10 bg-gray-100 p-4'>
             <div className='py-8 bg-[#1ebbf0] text-center flex-1 md:max-w-md md:mx-auto   my-auto'>
                 <div className='mb-8'>
                 <div className='h-16 w-16 bg-white mx-auto text-center flex items-center justify-center rounded-full'>
@@ -54,6 +56,7 @@ const ContactHome = () => {
                 </form>
             </div>
         </div>
+       </div>
     );
 };
 
