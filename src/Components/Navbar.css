@@ -1,0 +1,27 @@
+.nav{
+    font-weight: 400;
+    font-size: 18px;
+}
+.nav.active {
+    background: linear-gradient(to left, #1ebbf0 30%, #39dfaa 100%);
+    -webkit-background-clip: text;
+    color: transparent;
+    text-decoration: underline;   
+    font-weight: 600;
+     
+}
+.nav:hover {
+    background: linear-gradient(to left, #1ebbf0 30%, #39dfaa 100%);
+    -webkit-background-clip: text;
+    color: transparent;
+    text-decoration: underline;
+    transition: .4s;
+    font-weight: 600;
+     
+}
+
+.nav{
+    margin-right: 8px;
+    margin-left: 8px;
+   
+}
