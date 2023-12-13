@@ -26,7 +26,7 @@ const ContactHome = () => {
             <div className='py-8 bg-[#1ebbf0] text-center flex-1 md:max-w-md md:mx-auto   my-auto'>
                 <div className='mb-8'>
                 <div className='h-16 w-16 bg-white mx-auto text-center flex items-center justify-center rounded-full'>
-                    <MdOutlineWifiCalling3 className='text-2xl' ></MdOutlineWifiCalling3>
+                    <MdOutlineWifiCalling3 className='text-2xl text-green-500' ></MdOutlineWifiCalling3>
                     </div>
                     <h3 className='text-white'>Call us</h3>
                     <h1 className='text-xl text-gray-200'>+880 1861495973</h1>
@@ -34,7 +34,7 @@ const ContactHome = () => {
                 </div>
                 <div className='mb-8'>
                     <div className='h-16 w-16 bg-white mx-auto text-center flex items-center justify-center rounded-full'>
-                        <MdMail className='text-2xl' />
+                        <MdMail className='text-2xl text-red-500' />
                     </div>
 
                     <h3 className='text-white'>Mail us</h3>
@@ -44,7 +44,7 @@ const ContactHome = () => {
                 <div className='mb-8'>
                 <div className='h-16 w-16 bg-white mx-auto text-center flex items-center justify-center rounded-full'>
                        
-                    <MdLocationPin className='text-2xl'></MdLocationPin  >
+                    <MdLocationPin className='text-2xl text-blue-500'></MdLocationPin  >
                     </div>
                     <h3 className='text-white'>My Location</h3>
                     <h1 className='text-xl text-gray-200'>Mymensingh, Bangladesh</h1>
