@@ -20,9 +20,9 @@ const ContactHome = () => {
       };
     return (
        <div className='py-9'>
-       <h1  className='text-center md:text-8xl font-bold text-gray-200'>CONTACT ME</h1>
-      <p className='text-center md:text-2xl font-semibold relative md:-top-16 underline decoration-sky-500'>Let's start a project together!</p>
-         <div className='flex flex-col md:flex-row py-7  p-4'>
+       <h1 data-aos="fade-up"  className='text-center md:text-8xl font-bold text-gray-200'>CONTACT ME</h1>
+      <p data-aos="fade-up"  className='text-center md:text-2xl font-semibold relative md:-top-16 underline decoration-sky-500'>Let's start a project together!</p>
+         <div data-aos="fade-right" className='flex flex-col md:flex-row py-7  p-4'>
             <div className='py-8 bg-[#1ebbf0] text-center flex-1 md:max-w-md md:mx-auto   my-auto'>
                 <div className='mb-8'>
                 <div className='h-16 w-16 bg-white mx-auto text-center flex items-center justify-center rounded-full'>
