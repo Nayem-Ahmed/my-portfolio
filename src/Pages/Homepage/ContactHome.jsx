@@ -65,7 +65,7 @@ const ContactHome = () => {
                     <label htmlFor="message" className="block text-gray-700 mb-2">Your Message:</label>
                     <textarea id="message" name="message" rows="4" required className="w-full px-4 py-2 border border-gray-300 hover:-translate-y-1 transition rounded mb-4 focus:outline-none focus:border-blue-500"></textarea>
 
-                    <button type="submit" className="bg-gradient-to-r from-indigo-500 via-sky-500 to-emerald-500 text-white px-6 py-3 rounded hover:text-violet-600	btn-block">
+                    <button type="submit" className="bg-gradient-to-r from-indigo-500 via-sky-500 to-emerald-500 text-white px-6 py-3 rounded hover:text-violet-600	btn-block hover:scale-105 transition duration-300">
                         Send Message
                     </button>
 
