@@ -24,7 +24,7 @@ const Skill = () => {
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {/* Skill Card 1 */}
-          <div data-aos="fade-up" className=" p-6 rounded-lg shadow-lg hover:text-[#1ebbf0]">
+          <div data-aos="fade-up" className=" p-6 rounded-lg shadow-lg hover:text-[#1ebbf0] border-b-4 border-sky-500">
             <h3 className="text-xl font-semibold mb-4">JavaScript (JS)</h3>
             <img className='w-20 mb-3' src={js} alt="" />
             <img src="" alt="" srcset="" />
@@ -39,7 +39,7 @@ const Skill = () => {
           </div>
 
           {/* Skill Card 2 */}
-          <div data-aos="fade-up" className=" p-6 rounded-lg shadow-lg  hover:text-[#1ebbf0]">
+          <div data-aos="fade-up" className=" p-6 rounded-lg shadow-lg  hover:text-[#1ebbf0] border-b-4 border-sky-500">
             <h3 className="text-xl font-semibold mb-4">React.js</h3>
             <img className='w-20 mb-3' src={react} alt="" />
             <div className="flex items-center">
@@ -53,7 +53,7 @@ const Skill = () => {
           </div>
 
           {/* Skill Card 3 */}
-          <div data-aos="fade-up" className="  p-6 rounded-lg shadow-lg  hover:text-[#1ebbf0]">
+          <div data-aos="fade-up" className="  p-6 rounded-lg shadow-lg  hover:text-[#1ebbf0] border-b-4 border-sky-500">
             <h3 className="text-xl font-semibold mb-4">HTML/CSS</h3>
             <img className='w-14 mb-3' src={css} alt="" srcset="" />
             <div className="flex items-center">
@@ -66,7 +66,7 @@ const Skill = () => {
             </div>
           </div>
            {/* Express.js */}
-           <div data-aos="fade-up" className="  p-6 rounded-lg shadow-lg  hover:text-[#1ebbf0]">
+           <div data-aos="fade-up" className="  p-6 rounded-lg shadow-lg  hover:text-[#1ebbf0] border-b-4 border-sky-500">
             <h3 className="text-xl font-semibold mb-4">Express.js</h3>
             <img className='w-20 mb-3' src={express} alt="" />
             <div className="flex items-center">
@@ -79,7 +79,7 @@ const Skill = () => {
             </div>
           </div>
            {/* MongoDB */}
-           <div data-aos="fade-up" className="  p-6 rounded-lg shadow-lg  hover:text-[#1ebbf0]">
+           <div data-aos="fade-up" className="  p-6 rounded-lg shadow-lg  hover:text-[#1ebbf0] border-b-4 border-sky-500">
             <h3 className="text-xl font-semibold mb-4">MongoDB</h3>
             <img className='w-20 mb-3' src={mongodb} alt="" />
             <div className="flex items-center">
@@ -92,7 +92,7 @@ const Skill = () => {
             </div>
           </div>
            {/* Tailwind */}
-           <div data-aos="fade-up" className="  p-6 rounded-lg shadow-lg  hover:text-[#1ebbf0]">
+           <div data-aos="fade-up" className="  p-6 rounded-lg shadow-lg  hover:text-[#1ebbf0] border-b-4 border-sky-500">
             <h3 className="text-xl font-semibold mb-4">Tailwind</h3>
             <img className='w-20 mb-3' src={tailwind} alt="" />
             <div className="flex items-center">
