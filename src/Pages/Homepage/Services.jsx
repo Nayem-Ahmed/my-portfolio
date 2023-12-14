@@ -2,6 +2,7 @@
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { IoMdArrowDropright } from 'react-icons/io';
+// import '../Homepage/Portfolio.css'
 
 const Services = () => {
   useEffect(() => {
@@ -17,7 +18,7 @@ const Services = () => {
       <p data-aos="fade-up" className='text-center md:text-4xl font-semibold relative md:-top-20 underline decoration-sky-500'>What I do</p>
 
       <div className='grid grid-cols-1 md:grid-cols-2 gap-5 '>
-        <div data-aos="fade-up" className="card bg-base-100 shadow-xl border-b-4 border-sky-500">
+        <div data-aos="fade-up" className="image-section card bg-base-100 shadow-xl border-b-4 border-sky-500">
           <div className="card-body">
             <h2 className="card-title">Website Development</h2>
             <div className='flex gap-2'>

@@ -29,7 +29,6 @@ const Skill = () => {
           <div data-aos="zoom-in-up" className=" p-6 rounded-lg  hover:text-[#1ebbf0] border-b-4 border-sky-500">
             <h3 className="text-xl font-semibold mb-4">JavaScript (JS)</h3>
             <img className='w-16 mb-3' src={js} alt="" />
-            <img src="" alt="" srcset="" />
             <div className="flex items-center">
               <div className="flex-1">
                 <div className="progress-bar bg-white w-3/4 h-4 rounded-full">
@@ -57,7 +56,7 @@ const Skill = () => {
           {/* Skill Card 3 */}
           <div data-aos="zoom-in-up" className="  p-6 rounded-lg   hover:text-[#1ebbf0] border-b-4 border-sky-500">
             <h3 className="text-xl font-semibold mb-4">CSS</h3>
-            <img className='w-12 mb-3' src={css} alt="" srcset="" />
+            <img className='w-12 mb-3' src={css} alt=""  />
             <div className="flex items-center">
               <div className="flex-1">
                 <div className="progress-bar bg-white w-4/5 h-4 rounded-full">

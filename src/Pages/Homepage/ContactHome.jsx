@@ -12,7 +12,9 @@ const ContactHome = () => {
           .then((result) => {
               console.log(result.text);
               toast("Request successful");
-
+              if (form.current) {
+                form.current.reset();
+              }
 
           }, (error) => {
               console.log(error.text);

@@ -3,6 +3,7 @@ import { FaDownload, FaGithub, FaLinkedin } from "react-icons/fa";
 import ContactHome from './Homepage/ContactHome';
 import Typewriter from 'typewriter-effect';
 import nay from "../assets/nay.jpg"
+import cv from "../assets/SCIC ASSIGNMENT_2.pdf"
 
 
 // Import AOS CSS
@@ -22,7 +23,7 @@ const About = () => {
 
     return (
         <div >
-            <div  className='grid grid-cols-1 md:grid-cols-2 gap-5 p-5 py-10'>
+            <div className='grid grid-cols-1 md:grid-cols-2 gap-5 p-5 py-10'>
                 <div data-aos="fade-up" className='flex-1'>
                     <h1 className="md:text-4xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-cyan-500 to-blue-500 ">About me</h1>
                     {/* <Typewriter                  
@@ -38,18 +39,27 @@ const About = () => {
                     </p>
                     <div data-aos="fade-up" >
                         <div className='flex'>
-                        <button
-                            type="btn"
-                            className="bg-gradient-to-r from-indigo-500 via-sky-500 to-emerald-500 text-white md:px-7 md:py-4 py-3 px-3 mr-4 rounded transition duration-300 transform hover:scale-105 hover:text-violet-600 focus:outline-none focus:ring focus:border-blue-300 flex"
-                        >
-                            Download CV <span> <FaDownload /></span>
-                        </button>
-                        <button className="btn btn-circle outline outline-[#39dfaa] hover:bg-[#1ebbf0] mr-5">
-                            <FaGithub className='text-xl'></FaGithub>
-                        </button>
-                        <button className="btn btn-circle outline  outline-[#39dfaa] hover:bg-[#1ebbf0]">
-                            <FaLinkedin className='text-xl'></FaLinkedin >
-                        </button>
+                            <a href={cv} download>
+                                <button
+                                    type="btn"
+                                    className="bg-gradient-to-r from-indigo-500 via-sky-500 to-emerald-500 text-white md:px-7 md:py-4 py-3 px-3 mr-4 rounded transition duration-300 transform hover:scale-105 hover:text-violet-600 focus:outline-none focus:ring focus:border-blue-300 flex"
+                                >
+                                    Download CV <span> <FaDownload /></span>
+                                </button></a>
+                             <a target="_blank" href='https://github.com/Nayem-Ahmed'>
+                            <button  className="btn btn-circle outline outline-[#39dfaa] hover:bg-[#1ebbf0] mr-5">
+                                <FaGithub className='text-xl'></FaGithub>
+                            </button>
+
+                                </a>
+                                <a href='https://www.linkedin.com/feed/' target="_blank">
+                            <button className="btn btn-circle outline  outline-[#39dfaa] hover:bg-[#1ebbf0]">
+                                <FaLinkedin className='text-xl'></FaLinkedin >
+                            </button>
+
+                                </a>
+                 
+
                         </div>
                     </div>
                 </div>
@@ -66,7 +76,7 @@ const About = () => {
                     <img className='text-black w-32 -mt-10 relative' src={nayem} alt="" />
                 </div>
             </div>
-            
+
             <Skill></Skill>
             <ContactHome ></ContactHome>
 

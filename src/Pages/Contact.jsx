@@ -13,6 +13,9 @@ const Contact = () => {
           .then((result) => {
               console.log(result.text);
               toast("Request successful");
+              if (form.current) {
+                form.current.reset();
+              }
 
 
           }, (error) => {
