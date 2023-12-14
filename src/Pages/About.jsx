@@ -2,6 +2,7 @@ import React from 'react';
 import { FaDownload, FaGithub, FaLinkedin } from "react-icons/fa";
 import ContactHome from './Homepage/ContactHome';
 import Typewriter from 'typewriter-effect';
+import nay from "../assets/nay.jpg"
 
 
 // Import AOS CSS
@@ -23,7 +24,7 @@ const About = () => {
         <div >
             <div  className='grid grid-cols-1 md:grid-cols-2 gap-5 p-5 py-10'>
                 <div data-aos="fade-up" className='flex-1'>
-                    <h1 className="md:text-5xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-cyan-500 to-blue-500 ">About me</h1>
+                    <h1 className="md:text-4xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-cyan-500 to-blue-500 ">About me</h1>
                     {/* <Typewriter                  
                         options={{
                             strings:  ['<h1 style="color: bg-clip-text text-transparent bg-gradient-to-r from-cyan-500 to-blue-500" class="md:text-5xl font-bold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-cyan-500 to-blue-500">About me |</h1>'],
@@ -31,6 +32,7 @@ const About = () => {
                             loop: true,
                         }}
                     /> */}
+                    <img className='w-32 mb-3' src={nay} alt="" />
                     <p className="text-lg text-gray-600 mb-8">
                         Hi there! I'm <span className="text-sky-500 font-semibold">Nayem Ahmed</span>, a passionate frontend developer based in <span className="text-sky-500 font-semibold">Mymensingh,Bangladesh</span>. I specialize in crafting beautiful and responsive web experiences.
                     </p>
