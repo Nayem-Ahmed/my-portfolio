@@ -3,6 +3,8 @@ import { Link, NavLink } from 'react-router-dom';
 import './Navbar.css'
 import logo from "../assets/logo.png";
 import Headroom from 'react-headroom';
+import { CiSearch } from "react-icons/ci";
+
 
 const Navbar = () => {
     const link = <>
@@ -35,7 +37,9 @@ const Navbar = () => {
           </ul>
         </div>
         <div className="navbar-end">
-          <a className="btn">Button</a>
+        <div class="navbar-end">
+ 
+            </div>
         </div>
       </div>
  </Headroom>

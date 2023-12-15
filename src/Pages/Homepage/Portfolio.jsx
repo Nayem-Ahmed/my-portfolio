@@ -15,7 +15,7 @@ const Portfolio = () => {
     return (
         <div className='p-4'>
             <h1 data-aos="fade-up" className='text-center md:text-9xl font-bold text-gray-100 z-0'>PORTFOLIO</h1>
-            <p data-aos="fade-up" className='text-center md:text-4xl font-semibold relative md:-top-20 underline decoration-sky-500'>Discover My Latest Works</p>
+            <p data-aos="fade-up" className='text-center md:text-4xl font-semibold relative md:-top-20 underline decoration-[#08d665]'>Discover My Latest Works</p>
 
             <div className='grid lg:grid-cols-4 md:grid-cols-3 p-4 gap-6'>
                 {

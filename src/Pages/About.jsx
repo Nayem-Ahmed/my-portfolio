@@ -47,13 +47,13 @@ const About = () => {
                                     Download CV <span> <FaDownload /></span>
                                 </button></a>
                              <a target="_blank" href='https://github.com/Nayem-Ahmed'>
-                            <button  className="btn btn-circle outline outline-[#39dfaa] hover:bg-[#1ebbf0] mr-5">
+                            <button  className="btn btn-circle outline outline-[#39dfaa] hover:bg-[#08d665] mr-5">
                                 <FaGithub className='text-xl'></FaGithub>
                             </button>
 
                                 </a>
                                 <a href='https://www.linkedin.com/feed/' target="_blank">
-                            <button className="btn btn-circle outline  outline-[#39dfaa] hover:bg-[#1ebbf0]">
+                            <button className="btn btn-circle outline  outline-[#39dfaa] hover:bg-[#08d665]">
                                 <FaLinkedin className='text-xl'></FaLinkedin >
                             </button>
 

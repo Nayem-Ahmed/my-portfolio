@@ -14,10 +14,10 @@ const Portfolioitem = ({ portfolio }) => {
             </div>
             <div className="card-body ">
                 <div className='flex justify-between'>
-                    <Link className='underline text-sky-500' to = {portfolio.link}> </Link>
-                    <Link className='underline text-sky-500' to = {portfolio.github}> </Link>
-                    <p><a className='underline text-sky-500' href={portfolio.link}target="_blank">Live link</a></p>
-                    <p><a className='underline text-sky-500' href={portfolio.github}target="_blank">Repo link</a></p>
+                    <Link className='underline text-[#08d665]' to = {portfolio.link}> </Link>
+                    <Link className='underline text-[#08d665]' to = {portfolio.github}> </Link>
+                    <p><a className='underline text-[#08d665]' href={portfolio.link}target="_blank">Live link</a></p>
+                    <p><a className='underline text-[#08d665]' href={portfolio.github}target="_blank">Repo link</a></p>
 
 
                 </div>

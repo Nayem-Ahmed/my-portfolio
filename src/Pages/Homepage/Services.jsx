@@ -15,10 +15,10 @@ const Services = () => {
   return (
     <div className='p-4'>
       <h1 data-aos="fade-up" className='text-center md:text-9xl font-bold text-gray-100 z-0'>SERVICES</h1>
-      <p data-aos="fade-up" className='text-center md:text-4xl font-semibold relative md:-top-20 underline decoration-sky-500'>What I do</p>
+      <p data-aos="fade-up" className='text-center md:text-4xl font-semibold relative md:-top-20 underline decoration-[#08d665]'>What I do</p>
 
       <div className='grid grid-cols-1 md:grid-cols-2 gap-5 '>
-        <div data-aos="fade-up" className="image-section card bg-base-100 shadow-xl border-b-4 border-sky-500">
+        <div data-aos="fade-up" className="image-section card bg-base-100 shadow-xl border-b-4  border-[#08d665]">
           <div className="card-body">
             <h2 className="card-title">Website Development</h2>
             <div className='flex gap-2'>
@@ -33,7 +33,7 @@ const Services = () => {
           </div>
         </div>
 
-        <div data-aos="fade-up" className="card bg-base-100 shadow-xl border-b-4 border-sky-500">
+        <div data-aos="fade-up" className="card bg-base-100 shadow-xl border-b-4 border-[#08d665]">
           <div className="card-body">
             <h2 className="card-title">Frontend Development</h2>
             <div className='flex gap-2'>
@@ -47,7 +47,7 @@ const Services = () => {
           </div>
         </div>
 
-        <div data-aos="fade-up" className="card bg-base-100 shadow-xl border-b-4 border-sky-500">
+        <div data-aos="fade-up" className="card bg-base-100 shadow-xl border-b-4 border-[#08d665]">
           <div className="card-body">
             <h2 className="card-title">Backend Development</h2>
             <div className='flex gap-2'>
@@ -65,7 +65,7 @@ const Services = () => {
           </div>
         </div>
 
-        <div data-aos="fade-up" className="card bg-base-100 shadow-xl border-b-4 border-sky-500 ">
+        <div data-aos="fade-up" className="card bg-base-100 shadow-xl border-b-4 border-[#08d665] ">
           <div className="card-body ">
             <h2 className="card-title ">Responsive Design</h2>
             <div className='flex gap-2'>

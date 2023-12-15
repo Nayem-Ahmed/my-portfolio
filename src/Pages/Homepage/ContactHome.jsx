@@ -23,15 +23,15 @@ const ContactHome = () => {
     return (
        <div className='py-9'>
        <h1 data-aos="fade-up"  className='text-center md:text-8xl font-bold text-gray-200'>CONTACT ME</h1>
-      <p data-aos="fade-up"  className='text-center md:text-2xl font-semibold relative md:-top-16 underline decoration-sky-500'>Let's start a project together!</p>
+      <p data-aos="fade-up"  className='text-center md:text-2xl font-semibold relative md:-top-16 underline decoration-[#08d665]'>Let's start a project together!</p>
          <div data-aos="fade-right" className='flex flex-col md:flex-row py-7  p-4'>
-            <div className='py-8 bg-[#1ebbf0] text-center flex-1 md:max-w-md md:mx-auto   my-auto'>
+            <div className='py-8 bg-[#08d665] text-center flex-1 md:max-w-md md:mx-auto   my-auto'>
                 <div className='mb-8'>
                 <div className='h-16 w-16 bg-white mx-auto text-center flex items-center justify-center rounded-full'>
                     <MdOutlineWifiCalling3 className='text-2xl text-green-500' ></MdOutlineWifiCalling3>
                     </div>
                     <h3 className='text-white'>Call us</h3>
-                    <h1 className='text-xl text-gray-200'>+880 1861495973</h1>
+                    <h1 className='text-xl text-[#fff]'>+880 1861495973</h1>
 
                 </div>
                 <div className='mb-8'>
@@ -40,7 +40,7 @@ const ContactHome = () => {
                     </div>
 
                     <h3 className='text-white'>Mail us</h3>
-                    <h1 className='text-xl text-gray-200'>webdevnayem@gmail.com</h1>
+                    <h1 className='text-xl text-[#fff]'>webdevnayem@gmail.com</h1>
 
                 </div>
                 <div className='mb-8'>
@@ -49,7 +49,7 @@ const ContactHome = () => {
                     <MdLocationPin className='text-2xl text-blue-500'></MdLocationPin  >
                     </div>
                     <h3 className='text-white'>My Location</h3>
-                    <h1 className='text-xl text-gray-200'>Mymensingh, Bangladesh</h1>
+                    <h1 className='text-xl text-[#fff]'>Mymensingh, Bangladesh</h1>
 
                 </div>
 
@@ -67,7 +67,7 @@ const ContactHome = () => {
                     <label htmlFor="message" className="block text-gray-700 mb-2">Your Message:</label>
                     <textarea id="message" name="message" rows="4" required className="w-full px-4 py-2 border border-gray-300 hover:-translate-y-1 transition rounded mb-4 focus:outline-none focus:border-blue-500"></textarea>
 
-                    <button type="submit" className="bg-gradient-to-r from-indigo-500 via-sky-500 to-emerald-500 text-white px-6 py-3 rounded hover:text-violet-600	btn-block hover:scale-105 transition duration-300">
+                    <button type="submit" className="bg-gradient-to-r from-indigo-500 via-sky-500 to-emerald-500 text-white px-6 py-3 rounded hover:text-[#08d665]	btn-block hover:scale-105 transition duration-300">
                         Send Message
                     </button>
 
