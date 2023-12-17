@@ -1,15 +1,17 @@
 import React from 'react';
 import { FaDownload, FaGithub, FaLinkedin } from 'react-icons/fa';
-import downloadcv from '../../assets/SCIC ASSIGNMENT_2.pdf'
+import downloadcv from '../../assets/resume.pdf'
+import imgg from '../../assets/bgg.png'
+import bpic from '../../assets/nay.jpg'
 
 const Banner = () => {
   return (
-    <div className="hero min-h-screen bg-base-200">
+    <div style={{ backgroundImage: `url(${imgg})` }} className="hero min-h-screen bg-base-200">
       <div className="hero-content flex-col lg:flex-row-reverse">
-        <img src="" className="max-w-sm rounded-lg shadow-2xl" />
+        <img src={bpic} className="w-60 rounded-full border-8 border-[#08d665]" />
         <div>
-          <h1 className="text-5xl font-bold">Box Office News!</h1>
-          <p className="py-6">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+          <h1 className="text-5xl font-bold text-white">Front-End Web Developer</h1>
+          <p className="py-6 text-white text-xl max-w-2xl">Passionate Web Developer creating modern and responsive web applications.Transforming ideas into captivating user experiences. Proficient in HTML, CSS, JavaScript, and modern front-end frameworks.</p>
           <a href={downloadcv} download>
             <button
               type="btn"

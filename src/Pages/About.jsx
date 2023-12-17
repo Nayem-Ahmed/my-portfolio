@@ -3,7 +3,7 @@ import { FaDownload, FaGithub, FaLinkedin } from "react-icons/fa";
 import ContactHome from './Homepage/ContactHome';
 import Typewriter from 'typewriter-effect';
 import nay from "../assets/nay.jpg"
-import cv from "../assets/SCIC ASSIGNMENT_2.pdf"
+import cv from "../assets/resume.pdf"
 
 
 // Import AOS CSS
