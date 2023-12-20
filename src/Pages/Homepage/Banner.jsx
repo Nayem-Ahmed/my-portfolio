@@ -3,7 +3,7 @@ import { FaDownload, FaGithub, FaLinkedin } from 'react-icons/fa';
 import downloadcv from '../../assets/resume.pdf'
 import imgg from '../../assets/bgg.png'
 import bpic from '../../assets/nay.jpg'
-import nbanner from '../../assets/nayembaner.png'
+import nbanner from '../../assets/nayembanner.png'
 import imgbg from '../../assets/imgbg.png'
 
 const Banner = () => {
@@ -13,7 +13,7 @@ const Banner = () => {
         <img  src={nbanner} className=" md:h-96 md:w-96 rounded-full p-2 hover:-translate-y-3 transition duration-300 border-4 border-[#08d665]" />
         <div className='md:ml-32'>
           <h1 data-aos="fade-down" className="text-5xl font-bold  "><span className='text-[#21bf73]'>Front-End</span> Web Developer</h1>
-          <p data-aos="fade-right" className="py-6   text-xl max-w-2xl">Passionate Web Developer creating modern and responsive web applications.Transforming ideas into captivating user experiences. Proficient in HTML, CSS, JavaScript, and modern front-end frameworks.</p>
+          <p data-aos="fade-right" className="py-6 text-gray-500  text-xl max-w-2xl">Passionate Web Developer creating modern and responsive web applications.Transforming ideas into captivating user experiences. Proficient in HTML, CSS, JavaScript, and modern front-end frameworks.</p>
           <a href={downloadcv} download>
             <button
               type="btn"
