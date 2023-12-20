@@ -52,7 +52,7 @@ const About = () => {
                             </button>
 
                                 </a>
-                                <a href='https://www.linkedin.com/feed/' target="_blank">
+                                <a href='https://www.linkedin.com/in/nayem-ahmed-9272652a5/' target="_blank">
                             <button className="btn btn-circle outline  outline-[#39dfaa] hover:bg-[#08d665]">
                                 <FaLinkedin className='text-xl'></FaLinkedin >
                             </button>

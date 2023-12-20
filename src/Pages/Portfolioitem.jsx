@@ -18,8 +18,6 @@ const Portfolioitem = ({ portfolio }) => {
                     <Link className='underline text-[#08d665]' to = {portfolio.github}> </Link>
                     <p><a className='underline text-[#08d665]' href={portfolio.link}target="_blank">Live link</a></p>
                     <p><a className='underline text-[#08d665]' href={portfolio.github}target="_blank">Repo link</a></p>
-
-
                 </div>
 
             </div>

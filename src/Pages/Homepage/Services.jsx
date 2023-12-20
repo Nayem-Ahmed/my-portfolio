@@ -3,6 +3,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { IoMdArrowDropright } from 'react-icons/io';
 // import '../Homepage/Portfolio.css'
+ import servicebg from '../../assets/servicebg.png'
 
 const Services = () => {
   useEffect(() => {
@@ -19,7 +20,7 @@ const Services = () => {
 
       <div className='grid grid-cols-1 md:grid-cols-2 gap-5 '>
         <div data-aos="fade-up" className="image-section card bg-base-100 shadow-xl border-b-4  border-[#08d665]">
-          <div className="card-body">
+          <div style={{backgroundImage: `url(${servicebg})`,backgroundPosition:'center center',backgroundRepeat:"no-repeat",borderRadius:"10px"}} className="card-body ">
             <h2 className="card-title">Website Development</h2>
             <div className='flex gap-2'>
             <div><IoMdArrowDropright className='text-2xl'></IoMdArrowDropright></div>
@@ -34,7 +35,7 @@ const Services = () => {
         </div>
 
         <div data-aos="fade-up" className="card bg-base-100 shadow-xl border-b-4 border-[#08d665]">
-          <div className="card-body">
+          <div className="card-body" style={{backgroundImage: `url(${servicebg})`,backgroundPosition:'center center',backgroundRepeat:"no-repeat",borderRadius:"10px"}}>
             <h2 className="card-title">Frontend Development</h2>
             <div className='flex gap-2'>
             <div><IoMdArrowDropright className='text-2xl'></IoMdArrowDropright></div>
@@ -48,7 +49,7 @@ const Services = () => {
         </div>
 
         <div data-aos="fade-up" className="card bg-base-100 shadow-xl border-b-4 border-[#08d665]">
-          <div className="card-body">
+          <div className="card-body"  >
             <h2 className="card-title">Backend Development</h2>
             <div className='flex gap-2'>
             <div><IoMdArrowDropright className='text-2xl'></IoMdArrowDropright></div>
@@ -56,7 +57,7 @@ const Services = () => {
             </div>
             <div className='flex gap-2'>
             <div><IoMdArrowDropright className='text-2xl'></IoMdArrowDropright></div>
-              <span className='text-[18px] text-gray-500'>Develop RESTful APIs to handle data requests and responses.Implement CRUD (Create, Read, Update, Delete) operations.Implement secure user authentication and authorization mechanisms.</span>
+              <span className='text-[18px] text-gray-600'>Develop RESTful APIs to handle data requests and responses.Implement CRUD (Create, Read, Update, Delete) operations.Implement secure user authentication and authorization mechanisms.</span>
             </div>
             <div className='flex gap-2'>
             <div><IoMdArrowDropright className='text-2xl'></IoMdArrowDropright></div>
@@ -66,15 +67,15 @@ const Services = () => {
         </div>
 
         <div data-aos="fade-up" className="card bg-base-100 shadow-xl border-b-4 border-[#08d665] ">
-          <div className="card-body ">
+          <div className="card-body " >
             <h2 className="card-title ">Responsive Design</h2>
             <div className='flex gap-2'>
             <div><IoMdArrowDropright className='text-2xl'></IoMdArrowDropright></div>
-              <span className='text-[18px] text-gray-500'>Start with a mobile-first approach, designing for smaller screens.Ensure a fluid and adaptable layout that scales to larger screens.</span>
+              <span className='text-[18px] text-gray-500 '>Start with a mobile-first approach, designing for smaller screens.Ensure a fluid and adaptable layout that scales to larger screens.</span>
             </div>
             <div className='flex gap-2'>
             <div><IoMdArrowDropright className='text-2xl'></IoMdArrowDropright></div>
-              <span className='text-[18px] text-gray-500'>Utilize flexible grid systems to create responsive layouts.Implement a fluid grid that adjusts columns and rows dynamically.</span>
+              <span className='text-[18px] text-gray-600 '>Utilize flexible grid systems to create responsive layouts.Implement a fluid grid that adjusts columns and rows dynamically.</span>
             </div>
             <div className='flex gap-2'>
               <div><IoMdArrowDropright className='text-2xl'></IoMdArrowDropright></div>

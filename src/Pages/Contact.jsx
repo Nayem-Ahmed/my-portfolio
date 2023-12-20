@@ -30,7 +30,7 @@ const Contact = () => {
       };
     return (
         <div style={containerStyle} className='bg-gray-100  p-4 md:p-0 lg:p-0'>
-            <h2  className="md:text-3xl font-bold mb-6 text-center text-sky-400">Contact Me</h2>
+            <h2  className="md:text-3xl font-bold mb-6 text-center text-[#21bf73]">Contact Me</h2>
             <p className="text-gray-600 mb-8 text-center max-w-md mx-auto">If you're interested in working together or have any questions, feel free to reach out to me.</p>
             <div className='flex gap-5 flex-col md:flex-row'>
                 <div className='py-8 bg-white text-center flex-1 shadow-sm  my-auto'>

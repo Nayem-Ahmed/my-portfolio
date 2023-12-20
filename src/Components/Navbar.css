@@ -3,7 +3,7 @@
     font-size: 18px;
 }
 .nav.active {
-    background: linear-gradient(to left, #1ebbf0 30%, #39dfaa 100%);
+    background: linear-gradient(to left, #21bf73 30%, #39dfaa 100%);
     -webkit-background-clip: text;
     color: transparent;
     text-decoration: underline;   
