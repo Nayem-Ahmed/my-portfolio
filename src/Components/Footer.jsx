@@ -21,7 +21,7 @@ const Footer = () => {
             
 
           </a>
-          <a href='https://www.linkedin.com/feed/' target="_blank">
+          <a href='https://www.linkedin.com/in/nayem-ahmed-75106b2a7/' target="_blank">
               <FaLinkedin className='text-3xl text-blue-400'></FaLinkedin >
           </a>
         </div>
