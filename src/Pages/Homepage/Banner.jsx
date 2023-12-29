@@ -1,6 +1,6 @@
 import React from 'react';
 import { FaDownload, FaGithub, FaLinkedin } from 'react-icons/fa';
-import downloadcv from '../../assets/resume.pdf'
+import downloadcv from '../../assets/Resume..pdf'
 import nbanner from '../../assets/nayembanner.png'
 import imgbg from '../../assets/imgbg.png'
 
