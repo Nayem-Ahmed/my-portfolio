@@ -25,14 +25,19 @@ const About = () => {
         <div >
             <div className='grid grid-cols-1 md:grid-cols-2 gap-5 p-5 py-10'>
                 <div data-aos="fade-up" className='flex-1'>
-                    <h1 className="md:text-4xl font-bold mb-6  text-[#21bf73] ">About me</h1>
-                    {/* <Typewriter                  
+                    {/* <h1 className="md:text-4xl font-bold mb-6  text-[#21bf73] ">About me</h1> */}
+                    <Typewriter
                         options={{
-                            strings:  ['<h1 style="color: bg-clip-text text-transparent bg-gradient-to-r from-cyan-500 to-blue-500" class="md:text-5xl font-bold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-cyan-500 to-blue-500">About me |</h1>'],
+                            strings: [
+                                '<span  style="color: red;font-size:30px; position:fixed;margin-top:-20px;font-weight:600;color:#21bf73">About me</span>'
+                         
+                            ],
+
                             autoStart: true,
                             loop: true,
+                            cursor: ''
                         }}
-                    /> */}
+                    />
                     <img className='w-32 mb-3' src={nay} alt="" />
                     <p className="text-lg text-gray-600 mb-8">
                         Hi there! I'm <span className="text-[#21bf73] font-semibold">Nayem Ahmed</span>, a passionate frontend developer based in <span className="text-[#21bf73] font-semibold">Mymensingh,Bangladesh</span>. I specialize in crafting beautiful and responsive web experiences.
@@ -65,10 +70,10 @@ const About = () => {
                 </div>
                 <div className='flex-1'>
                     <p data-aos="fade-up" className="text-lg text-gray-600 mb-8">
-                        My journey in web development began with a fascination for creating elegant and user-friendly interfaces. Armed with a degree in <span className="text-[#21bf73] font-semibold">B.Sc.(Hon's) ,Department of Zoology</span> from <span className="text-[#21bf73] font-semibold">Sherpur Govt. College</span>, I've honed my skills in HTML, CSS, and JavaScript.
+                        My journey in web development began with a fascination for creating elegant and user-friendly interfaces.I've honed my skills in HTML, CSS, and JavaScript,immersing myself in the art of crafting seamless digital experiences.
                     </p>
                     <p data-aos="fade-up" className="text-lg text-gray-600 mb-8">
-                        I thrive on building scalable web applications using modern frameworks like <span className="text-[#21bf73] font-semibold">React.js.</span> My goal is to deliver delightful user experiences that leave a lasting impression.
+                        I thrive on building scalable web applications using modern frameworks like <span className="text-[#21bf73] font-semibold">React.js.</span> My goal is to deliver delightful user experiences that not only meet expectations but exceed them, leaving a lasting and positive impression on every user I reach.
                     </p>
                     <p data-aos="fade-up" className="text-lg text-gray-600 mb-8">
                         Let's collaborate and bring your ideas to life! Explore my portfolio and feel free to reach out for inquiries or opportunities.
