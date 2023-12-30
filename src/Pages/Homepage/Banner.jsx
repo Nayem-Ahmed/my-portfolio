@@ -1,6 +1,5 @@
 import React from 'react';
 import { FaDownload, FaGithub, FaLinkedin } from 'react-icons/fa';
-import downloadcv from '../../assets/Resume..pdf'
 import nbanner from '../../assets/nayembanner.png'
 import imgbg from '../../assets/imgbg.png'
 
@@ -12,7 +11,7 @@ const Banner = () => {
         <div className='md:ml-32'>
           <h1 data-aos="fade-down" className="text-5xl font-bold  "><span className='text-[#21bf73]'>Front-End</span> Web Developer</h1>
           <p data-aos="fade-right" className="py-6 text-gray-500  text-xl max-w-2xl">Passionate Web Developer creating modern and responsive web applications.Transforming ideas into captivating user experiences. Proficient in HTML, CSS, JavaScript, and modern front-end frameworks.</p>
-          <a href={downloadcv} download>
+          <a href= 'https://drive.google.com/uc?export=download&id=1ilgPBQ1Y-6c8y1WvDsIqu3MXP5qqmMou' download>
             <button
               type="btn"
               className="bg-gradient-to-r from-indigo-500 via-sky-500 to-emerald-500 text-white md:px-7 md:py-4 py-3 px-3 mr-4 rounded transition duration-300 transform hover:scale-105 hover:text-black focus:outline-none focus:ring focus:border-blue-300 flex mb-5"

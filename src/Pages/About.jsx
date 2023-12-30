@@ -3,7 +3,7 @@ import { FaDownload, FaGithub, FaLinkedin } from "react-icons/fa";
 import ContactHome from './Homepage/ContactHome';
 import Typewriter from 'typewriter-effect';
 import nay from "../assets/nayemabout.jpg"
-import cv from "../assets/Resume..pdf"
+
 
 
 // Import AOS CSS
@@ -30,7 +30,7 @@ const About = () => {
                         options={{
                             strings: [
                                 '<span  style="color: red;font-size:30px; position:fixed;margin-top:-20px;font-weight:600;color:#21bf73">About me</span>'
-                         
+
                             ],
 
                             autoStart: true,
@@ -44,18 +44,13 @@ const About = () => {
                     </p>
                     <div data-aos="fade-up" >
                         <div className='flex'>
-                            <a href={cv} download>
+                            <a href='https://drive.google.com/uc?export=download&id=1ilgPBQ1Y-6c8y1WvDsIqu3MXP5qqmMou' download>
                                 <button
                                     type="btn"
-                                    className="bg-gradient-to-r from-indigo-500 via-sky-500 to-emerald-500 text-white md:px-7 md:py-4 py-3 px-3 mr-4 rounded transition duration-300 transform hover:scale-105 hover:text-violet-600 focus:outline-none focus:ring focus:border-blue-300 flex"
+                                    className="bg-gradient-to-r from-indigo-500 via-sky-500 to-emerald-500 text-white md:px-7 md:py-4 py-3 px-3 mr-4 rounded transition duration-300 transform hover:scale-105 hover:text-black focus:outline-none focus:ring focus:border-blue-300 flex mb-5"
                                 >
                                     Download CV <span> <FaDownload /></span>
-                                </button></a>
-                            <a target="_blank" href='https://github.com/Nayem-Ahmed'>
-                                <button className="btn btn-circle outline outline-[#39dfaa] hover:bg-[#08d665] mr-5">
-                                    <FaGithub className='text-xl'></FaGithub>
                                 </button>
-
                             </a>
                             <a href='https://www.linkedin.com/in/nayem-ahmed-75106b2a7/' target="_blank">
                                 <button className="btn btn-circle outline  outline-[#39dfaa] hover:bg-[#08d665]">
